@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace hw_3tmp
+namespace Module2Hw2
 {
     public abstract class Chocolate : Candy
     {
@@ -15,9 +15,6 @@ namespace hw_3tmp
             _chocolateType = chocolateType;
         }
 
-        public override string ToString()
-        {
-            return $"Name {_name}\n Wright {_weight}\n ShugarPercent {_shugarPercent}\n _chocolateType {_chocolateType}";
-        }
+       
     }
 }

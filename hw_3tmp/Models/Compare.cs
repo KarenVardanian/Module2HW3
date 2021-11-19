@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace hw_3tmp.Models
+namespace Module2Hw2.Models
 {
     public class PeopleComparer : IComparer<Product>
     {

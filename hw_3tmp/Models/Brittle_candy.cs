@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace hw_3tmp
+namespace Module2Hw2
 {
-    class Brittle_candy:Chocolate
+    public class Brittle_candy:Chocolate
     {
         public string _btittleType { get; set; }
         public Brittle_candy(string name, double weight, double shugarPercent, string form, string chocolateType,string btittleType)
@@ -15,9 +15,6 @@ namespace hw_3tmp
             _btittleType = btittleType;
         }
 
-        public override string ToString()
-        {
-            return $"Name {_name}\n Wright {_weight}\n ShugarPercent {_shugarPercent}\n _chocolateType {_chocolateType}\n btittleType {_btittleType}";
-        }
+        
     }
 }

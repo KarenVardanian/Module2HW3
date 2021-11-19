@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace hw_3tmp
+namespace Module2Hw2
 {
-    class Nuts : WithSugar
+   public class Nuts : WithoutShugar
     {
-       public string _nutName { set; get; }
-       public Nuts(string name, double weight, double shugarPercent,string Nutname)
+       public bool _isFried { set; get; }
+       public Nuts(string name, double weight, double shugarPercent,bool isFried)
             : base(name, weight, shugarPercent)
         {
-            _nutName = Nutname;
+            _isFried = isFried;
         }
     }
 }
