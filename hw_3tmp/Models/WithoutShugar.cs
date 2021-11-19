@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace hw_3tmp
+namespace Module2Hw2
 {
     public abstract class WithoutShugar: Product
     {
@@ -13,9 +13,6 @@ namespace hw_3tmp
         {
             _fructosePercent = fructosePercent;
         }
-        public override string ToString()
-        {
-            return $"Name {_name}\n Wright {_weight}\n _fructosePercent {_fructosePercent}\n";
-        }
+     
     }
 }

@@ -4,19 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace hw_3tmp
+namespace Module2Hw2
 {
-    class DriedFruits : WithoutShugar
+    public class DriedFruits : WithoutShugar
     {
-        public string _fruitName { set; get; }
-        public DriedFruits(string name, double weight, double shugarPercent,string fruitName):
+        public string _countryProducer { set; get; }
+        public DriedFruits(string name, double weight, double shugarPercent,string countryProducer) :
             base(name, weight, shugarPercent)
         {
-            _fruitName = fruitName;
+            _countryProducer = countryProducer;
         }
-        public override string ToString()
-        {
-          return $"Name {_name}\n Wright {_weight}\n _fructosePercent {_fructosePercent}\n _fruitName {_fruitName}"; 
-        }
+       
     }
 }

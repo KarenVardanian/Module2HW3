@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace hw_3tmp
+namespace Module2Hw2
 {
     interface ISerachByName
     {
-        void searchByName(string name);
-    
+         Product[] SerachByName(string name);
+
+
     }
 }
